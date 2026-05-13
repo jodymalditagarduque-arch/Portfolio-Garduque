@@ -1,0 +1,80 @@
+input{
+    
+    padding:12px;
+    margin: 10px 5px;
+    height: 10px;
+    width: 200px;
+    border:  1px;
+    border-radius: 5px;
+    font-size: 16px
+}
+body { 
+    background-color: rgb(182, 236, 34);
+    font-family: sans-serif; 
+    text-align: center;
+}
+table{ 
+    width: 80%; 
+    margin: auto; 
+    background: white; 
+    border-collapse: collapse;
+}
+th { 
+    background: rgb(6, 88, 31); 
+    color: rgb(240, 234, 230); 
+    padding: 20px;
+}
+td {
+    padding: 10px; 
+    border-bottom:  1px; 
+    color:rgb(39, 39, 37);
+}
+button {
+    background: rgb(39, 202, 243); 
+    color:rgb(12, 36, 92); 
+    border: none; 
+    padding: 5px 15px; 
+    border-radius: 5px;
+}
+.button-delete {
+    background-color:  rgb(39, 202, 243);
+    color:rgb(12, 36, 92); 
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+    display: inline-block;
+    text-decoration: none;
+}
+.button-delete:hover {
+    background-color: darkblue;
+    color: white;
+}
+.button-edit {
+    background-color:  rgb(39, 202, 243);
+    color:rgb(12, 36, 92); 
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+    display: inline-block;
+    text-decoration: none;
+}
+.button-edit:hover {
+    background-color: darkblue;
+    color: white;
+}
+.button-cancel {
+    background-color:  rgb(39, 202, 243);
+    color:rgb(12, 36, 92); 
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+    display: inline-block;
+    text-decoration: none;
+}
+.button-cancel:hover {
+    background-color: darkblue;
+    color: white;
+}

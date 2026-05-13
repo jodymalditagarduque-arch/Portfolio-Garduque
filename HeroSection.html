@@ -4,37 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="HeroSection.css">
+    <link rel="stylesheet" href="StyleSection.css">
 </head>
-<body>
     <nav class="navbar">
         <div class="nav-container">
             <ul class="nav-links">
                 <li><a href="HeroSection.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html" class="active">About</a></li>
                 <li><a href="project.html">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="contacts.html">Contact</a></li>
             </ul>
             <div class="nav-btn-wrapper">
-                <a href="mailto:your-email@example.com" class="nav-cta">Hire Me</a>
+                <a href="jodymalditagarduque@gmail.com" class="nav-cta">Download CV</a>
             </div>
         </div>
     </nav>
     <div class="hero">
-        <div class="hero-icons">
-            <a href="about.html" class="icon-circle" title = "2nd Year Information Technology Student">🎓</a>
-            <a href="#projects" class="icon-circle" title="View My Work">💻</a>
-            <a href="https://github.com/jodymalditagarduque-arch" class="icon-circle" title="My GitHub Profile">🐙</a>
+
+    <!-- LEFT SIDE -->
+        <div class="hero-content">
+
+            <div class="hero-badge">
+                👋 Hi, I'm
+            </div>
+
+            <h1>Jody I. Garduque</h1>
+
+            <p class="main-text">
+                Your Future Web Developer
+            </p>
+
+            <p class="hero-desc">
+                A second-year Information Technology student passionate about
+                web development, creative design, and building user-friendly websites.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="project.html" class="btn-primary">
+                    View My Work
+                </a>
+
+                <a href="#" class="btn-secondary">
+                    Download CV
+                </a>
+
+            </div>
+
+       
+
         </div>
-        
-        <h1>Hello!</h1>
-        <p class="main-text">I'm Jody I. Garduque . Your future Web developer</p>
-        
-        <img src="jody.jpg" class="profile-img" alt="Profile Picture">
+
+        <!-- RIGHT SIDE -->
+        <div class="hero-image">
+
+            <div class="circle-glow"></div>
+
+            <img src="profile.jpg" class="profile-img" alt="Profile Picture">
+
+        </div>
+
     </div>
-
-    
-
-    <script src="HeroSection.js"></script>
-</body>
 </html>
