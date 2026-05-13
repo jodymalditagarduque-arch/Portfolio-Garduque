@@ -383,6 +383,20 @@ body{
   text-align: left;
 }
 
+.project-content h3 {
+    color: violet;
+    font-size: 20px;
+}
+
+.project-content p {
+    color: whitesmoke;
+
+}
+
+.project-content p strong {
+    color:#8b5cf6
+}
+
 .project-links a {
   margin-right: 15px;
   text-decoration: none;
