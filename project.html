@@ -21,70 +21,63 @@
         </div>
     </nav>
     <section id="projects" class="projects-section">
-        <h2 class="section-title">My Projects</h2>
+    <h2 class="section-title">Latest Projects</h2>
 
-        <div class="projects-container">
-
-            <!-- Project 1 -->
-           <div class="project-card">
-                <img src="webpage.png" alt="Website Preview" class="project-img">
-
-                <div class="project-content">
-                    <h3>Reservation Webpage</h3>
-
-                    <p>
-                        A responsive portfolio website that showcases my skills, projects,
-                        and contact information. Built to practice modern web design and responsiveness.
-                    </p>
-
-                    <p><strong>Tech Used:</strong> HTML and CSS</p>
-
+    <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+            <div class="project-img-wrapper">
+                <img src="webpage.png" alt="Reservation Webpage" class="project-img">
+            </div>
+            <div class="project-content">
+                <h3>Reservation Webpage</h3>
+                <p>Built to practice modern web design and responsiveness.</p>
+                <div class="project-footer">
+                    <span class="tech-stack">HTML, CSS</span>
                     <div class="project-links">
-                        <a href="Webpage-new/home.html" target="_blank">Live Demo</a>
+                        <a href="Webpage-new/home.html" target="_blank">Demo</a>
                         <a href="https://github.com/jodymalditagarduque/Webpage-new" target="_blank">GitHub</a>
                     </div>
                 </div>
             </div>
-
-            <!-- Project 2 -->
-            <div class="project-card">
-                <img src="mvc.png" alt="Project Screenshot" class="project-img">
-
-                <div class="project-content">
-                    <h3>Student Management System</h3>
-                    <p>
-                        A basic student management system that allows users to add, delete,
-                        and update.
-                    </p>
-
-                    <p><strong>Tech Used:</strong> HTML, CSS, JavaScript</p>
-
-                    <div class="project-links">
-                        <a href="mvc_student_app/view/view.php" target="_blank">Live Demo</a>
-                        <a href="#" target="_blank">GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Project 3 -->
-            <div class="project-card">
-                <img src="itec.png" alt="Project Screenshot" class="project-img">
-
-                <div class="project-content">
-                    <h3>Library Management System</h3>
-                    <p>
-                        A Library management system that allows users to see the status and availability of the books.
-                    </p>
-
-                    <p><strong>Tech Used:</strong> HTML, CSS, JavaScript</p>
-
-                    <div class="project-links">
-                        <a href="ITEC60A/Book.php" target="_blank">Live Demo</a>
-                        <a href="#" target="_blank">GitHub</a>
-                    </div>
-                </div>
-            </div>
-
         </div>
-    </section>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <div class="project-img-wrapper">
+                <img src="mvc.png" alt="Student Management System" class="project-img">
+            </div>
+            <div class="project-content">
+                <h3>Student Management System</h3>
+                <p>A basic system for adding, deleting, and updating student records.</p>
+                <div class="project-footer">
+                    <span class="tech-stack">PHP, SQL, JS</span>
+                    <div class="project-links">
+                        <a href="mvc_student_app/view/view.php" target="_blank">Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <div class="project-img-wrapper">
+                <img src="itec.png" alt="Library Management System" class="project-img">
+            </div>
+            <div class="project-content">
+                <h3>Library Management System</h3>
+                <p>Allows users to track the status and availability of books.</p>
+                <div class="project-footer">
+                    <span class="tech-stack">PHP, OOP</span>
+                    <div class="project-links">
+                        <a href="ITEC60A/Book.php" target="_blank">Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
