@@ -314,7 +314,7 @@ body{
 }
 
 .skills-container {
-    height: 250px;
+    height: 400px;
     overflow: hidden;
     position: relative;
   
@@ -482,4 +482,211 @@ body{
 .project-links a:hover {
     background: #f15db9;
     border-color: #f15db9;
+}
+
+
+
+/* CONTACT SECTION */
+
+/* CONTACT SECTION */
+
+.contact-section{
+    min-height: 100vh;
+    background: #0d0d0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 8%;
+}
+
+/* MAIN CARD */
+
+.contact-card{
+    width: 100%;
+    max-width: 1200px;
+    background: #151515;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 30px rgba(255, 78, 205, 0.15);
+}
+
+/* LEFT SIDE */
+
+.contact-left{
+    flex: 1;
+    min-width: 320px;
+    padding: 60px;
+    background: linear-gradient(
+        135deg,
+        #ff4ecd,
+        #7f5cff
+    );
+    color: white;
+    position: relative;
+}
+
+.contact-left h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.contact-left p{
+    line-height: 1.8;
+    margin-bottom: 40px;
+    color: #f1f1f1;
+}
+
+/* DETAILS */
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.detail{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1rem;
+}
+
+.detail i{
+    width: 45px;
+    height: 45px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SOCIALS */
+
+.socials{
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.socials a{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.socials a:hover{
+    transform: translateY(-5px) scale(1.1);
+    background: white;
+    color: #ff4ecd;
+}
+
+/* RIGHT SIDE */
+
+.contact-right{
+    flex: 1;
+    min-width: 320px;
+    padding: 60px;
+    background: #151515;
+}
+
+/* FORM */
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+/* FLOATING INPUT */
+
+.input-box{
+    position: relative;
+}
+
+.input-box input,
+.input-box textarea{
+    width: 100%;
+    padding: 15px 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #555;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.input-box textarea{
+    height: 120px;
+    resize: none;
+}
+
+.input-box label{
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: #999;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+/* FLOAT EFFECT */
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label,
+.input-box textarea:focus ~ label,
+.input-box textarea:valid ~ label{
+    top: -12px;
+    font-size: 0.85rem;
+    color: #ff4ecd;
+}
+
+/* BUTTON */
+
+button{
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(
+        135deg,
+        #ff4ecd,
+        #7f5cff
+    );
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(255, 78, 205, 0.5);
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 900px){
+
+    .contact-card{
+        flex-direction: column;
+    }
+
+    .contact-left,
+    .contact-right{
+        padding: 40px;
+    }
+
+    .contact-left h2{
+        font-size: 2.5rem;
+    }
+
 }
